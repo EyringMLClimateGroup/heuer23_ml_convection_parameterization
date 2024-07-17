@@ -1,0 +1,29 @@
+README concerning the preprocessed extract of the coarse-grained NARVAL data available via DKRZ resources 
+
+Date: 08/16/2023
+
+T I T L E O F T H E D A T A S E T
+- NARVAL R2B10 coarse-grained to R2B5 and preprocessed 
+
+P A T H T O T H E D A T A S E T
+- /work/bd1179/b309215/heuer23_ml_convection_parameterization/local_data/narval_preprocessed
+
+O W N E R / P R O D U C E R O F T H E D A T A S E T 
+- NARVAL R2B10: Daniel Klocke and Deutscher Wetterdienst, Offenbach and Max-Planck-Institut für Meteorologie, Hamburg
+Coarse-grained to R2B4 and R2B5: Helge Heuer and Deutsches Zentrum fuer Luft- und Raumfahrt e. V., Institut für Physik der Atmosphäre, Oberpfaffenhofen
+
+D A T A U S A G E L I C E N S E 
+- See LICENSE File in this directory
+
+C O N T E N T O F T H E D A T A S E T
+- To an R2B4 and an R2B5 grid coarse-grained data from the NARVAL (Klocke et al., 2017: 'Rediscovery of the doldrums in storm-resolving simulations over the tropical Atlantic') 
+
+D A T A U S A G E S C E N A R I O S
+- To study the link between the thermodynamic environment and convective subgrid fluxes using the output of storm-resolving model simulations on a climate model resolution
+- To train ML-based parameterizations
+
+M E T H O D S U S E D F O R D A T A C R E A T I O N
+- See 'Machine Learning-Based Parameterizations of Convection for ICON' (Heuer et al., 2023)
+
+I S S U E S
+- The mixing length in the vertical diffusion scheme was mistakenly set to 1000m instead of 150m, causing unrealistically strong vertical diffusion in some situations.
