@@ -2,6 +2,9 @@ README concerning the preprocessed extract of the coarse-grained NARVAL data ava
 
 Date: 08/16/2023
 
+The sample dataset contains the input data (`X_all`), the output data (`Y_all`) and two arrays containing information which variable is displayed in which column for X and Y, these are called `X_expl` and `Y_expl`.
+Per column there is an array in the explanation arrays where the first entry describes the variable and the second one the vertical level. For 2D variables this second entry is set to 0.
+
 T I T L E O F T H E D A T A S E T
 - NARVAL R2B10 coarse-grained to R2B5 and preprocessed 
 

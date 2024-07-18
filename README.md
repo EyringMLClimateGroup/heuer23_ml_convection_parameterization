@@ -10,6 +10,7 @@ If you want to use this repository, start by executing
 ```
 pip install -e .
 ```
+this will make the python scripts available to multiple jupyter notebooks inside this repository.
 
 ## Repository content
 - [preprocessing](preprocessing): contains various bash and python scripts to extract, filter, and coarse-grain the data from the high resolution data
@@ -19,7 +20,17 @@ pip install -e .
     - for the online-coupling of the U-Nets we used the Ftorch library (https://github.com/Cambridge-ICCS/FTorch)
 - [local_data](local_data): contains sample data
 
-## DATA
+## Data
 To fully reproduce the results it is first necessary to have access to accounts on [DKRZ/Levante](https://docs.dkrz.de/) and the [narval](https://doi.org/10.1038/s41561-017-0005-4) simulations.
 The coarse graining and preprocessing scripts are found in [preprocessing](preprocessing).
 For training and evaluation of the trained networks, some sample data has been saved in the [preprocessed data](/local_data/narval_preprocessed/) directory.
+
+## Dependencies
+- Xarray
+- Numba
+- Pytorch
+- Scikit-learn
+- Ray
+- Dask
+- Netcdf4
+- Other packages like numpy, matplotlib, pandas, joblib, and tqdm
