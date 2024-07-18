@@ -10,7 +10,7 @@ If you want to use this repository, start by executing
 ```
 pip install -e .
 ```
-this will make the python scripts available to multiple jupyter notebooks inside this repository.
+this will make it possible to import various python functions in jupyter notebooks inside this repository.
 
 ## Repository content
 - [preprocessing](preprocessing): contains various bash and python scripts to extract, filter, and coarse-grain the data from the high resolution data
