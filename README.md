@@ -4,7 +4,7 @@ This repository contains the code for the developement of data-driven convection
 The corresponding paper is available as a preprint on arXiv
 > Heuer, Helge, et al. "Interpretable multiscale Machine Learning-Based Parameterizations of Convection for ICON." arXiv preprint arXiv:2311.03251 (2023). https://doi.org/10.48550/arXiv.2311.03251
 
-Corresponding DOI: 
+Corresponding DOI: [![DOI](https://zenodo.org/badge/830080309.svg)](https://zenodo.org/badge/latestdoi/830080309)
 
 If you want to use this repository, start by executing
 ```
