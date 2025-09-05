@@ -1,8 +1,8 @@
 # Interpretable multiscale Machine Learning-Based Parameterizations of Convection for ICON
 This repository contains the code for the developement of data-driven convection parameterizations based on the NARVAL data set for ICON-A
 
-The corresponding paper is available as a preprint on arXiv
-> Heuer, Helge, et al. "Interpretable multiscale Machine Learning-Based Parameterizations of Convection for ICON." arXiv preprint arXiv:2311.03251 (2023). https://doi.org/10.48550/arXiv.2311.03251
+The corresponding paper is available at
+> Heuer, H., Schwabe, M., Gentine, P., Giorgetta, M. A., & Eyring, V. (2024). Interpretable multiscale machine learning-based parameterizations of convection for ICON. Journal of Advances in Modeling Earth Systems, 16, e2024MS004398. https://doi.org/10.1029/2024MS004398 
 
 Corresponding DOI: [![DOI](https://zenodo.org/badge/830080309.svg)](https://zenodo.org/badge/latestdoi/830080309)
 
